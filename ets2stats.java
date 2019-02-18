@@ -8,10 +8,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-/**
- *
- * @author venad
- */
 public class ets2stats extends javax.swing.JFrame {
 
     private String ets2mpstats = "https://stats.truckersmp.com/";
