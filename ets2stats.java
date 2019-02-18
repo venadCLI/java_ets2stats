@@ -251,8 +251,9 @@ public class ets2stats extends javax.swing.JFrame {
                     }
                 } catch (IOException ex) {
                     Logger.getLogger(ets2stats.class.getName()).log(Level.SEVERE, null, ex);
-                }
+                } finally {
                 notifyAll();
+                }
             }
         }).start();
     }
